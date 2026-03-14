@@ -1,0 +1,97 @@
+# ──────────────────────────────────────────────
+# PMBrain AI — .gitignore
+# ──────────────────────────────────────────────
+
+# ─── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ─── Virtual Environments ─────────────────────
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ─── Environment Variables ────────────────────
+.env
+
+# ─── Database ─────────────────────────────────
+db.sqlite3
+db.sqlite3-journal
+*.db
+
+# ─── Django ───────────────────────────────────
+staticfiles/
+*.log
+local_settings.py
+media/
+
+# ─── Storage (cloned repos, uploads) ─────────
+storage/
+
+# ─── IDE / Editor ─────────────────────────────
+.vscode/
+.idea/
+.zcode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ─── OS Files ─────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ─── Node (if any tooling added later) ───────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ─── Testing / Coverage ──────────────────────
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ─── Jupyter Notebooks ───────────────────────
+.ipynb_checkpoints/
+
+# ─── Distribution / Packaging ────────────────
+*.tar.gz
+*.whl
+
+# ─── Misc ─────────────────────────────────────
+*.bak
+*.tmp
+*.temp

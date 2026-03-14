@@ -1,5 +1,11 @@
 # PMBrain AI, Complete Documentation
 
+<p align="center">
+  <img src="app-demo/pmbrainai.gif" alt="PMBrain AI Demo" width="100%" />
+</p>
+
+---
+
 ## 🧠 What is PMBrain AI?
 
 **PMBrain AI is Cursor for Product Management.** It's an AI-native SaaS platform that helps product teams decide **what to build next**, not just how to build it.
