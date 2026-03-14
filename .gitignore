@@ -26,6 +26,11 @@ ENV/
 
 # ─── Environment Variables ────────────────────
 .env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+# NOTE: .env.example is NOT ignored (it's a safe template)
 
 # ─── Database ─────────────────────────────────
 db.sqlite3

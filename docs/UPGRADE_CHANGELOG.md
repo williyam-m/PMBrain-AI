@@ -21,7 +21,7 @@ This document details every change made during the system upgrade.
 - **ADDED**: `GeminiAPIError` exception class
 
 ### Changed: `.env`
-- **SET**: `GEMINI_API_KEY=REMOVED_SECRET`
+- **SET**: `GEMINI_API_KEY=<your-api-key>` *(loaded from environment variable — never commit real keys)*
 - **ADDED**: `GEMINI_MODEL=gemini-2.5-flash-lite`
 - **ADDED**: `GEMINI_FALLBACK_MODEL=gemini-flash-lite-latest`
 - **ADDED**: `GEMINI_MAX_RETRIES=3`
