@@ -1,6 +1,4 @@
-# PMBrain AI, Complete Documentation
-## Live Link:
-https://pmbrain-8080.zcodecorp.in/ (Deployed on Cloud)
+# PMBrain AI
 
 <p align="center">
   <img src="app-demo/pmbrainai.gif" alt="PMBrain AI Demo" width="100%" />
@@ -8,9 +6,7 @@ https://pmbrain-8080.zcodecorp.in/ (Deployed on Cloud)
 
 ---
 
-## 🧠 What is PMBrain AI?
-
-**PMBrain AI is Cursor for Product Management.** It's an AI-native SaaS platform that helps product teams decide **what to build next**, not just how to build it.
+**PMBrain AI turns product strategy into an autonomous AI-driven loop.** 
 
 The system continuously ingests customer conversations, product analytics, feedback, and research signals, then automatically identifies product opportunities and generates implementation-ready specs.
 
